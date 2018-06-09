@@ -8,7 +8,7 @@ public class SampleProc {
 	public static void main(String[] args) {
 		
 		SampleProc sp= new SampleProc();
-		
+		System.out.println(b);
 		int sum=sp.m1(a, b);
 		System.out.println(sum);
 		//System.out.println(sp.b);
