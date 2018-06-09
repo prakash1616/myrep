@@ -1,20 +1,24 @@
 package gitpro;
 
+import java.util.Scanner;
+
 public class SampleProc {
 	
 	
-	 static int a=10;
-	 static int b=20;
+	
 	public static void main(String[] args) {
 		
 		SampleProc sp= new SampleProc();
-		System.out.println(b);
-		int sum=sp.m1(a, b);
-		System.out.println(sum);
+
+
+		int a= sc.nextInt();
+		int b =sc.nextInt(); 
+		int sum=sp.m1(a,b);
+	    System.out.println(su
 		//System.out.println(sp.b);
 	}
 	
-	public int m1(int a, int  b) {
+	public int m1(int a,int b) {
 		
        int sum =0;
 		sum=a+b;
